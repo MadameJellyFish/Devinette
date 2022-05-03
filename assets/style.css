@@ -1,0 +1,46 @@
+body{
+    background-image: url(/magic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+h1{
+    color: #d764b6;
+    text-transform: uppercase;
+    font-size: 3.5em;
+
+}
+p{
+    color:#f68b56;
+}
+#formDisplay{
+    display: none;
+}
+button{
+    background-color:#fcf5ed;
+    height: 30px;
+    border: none;
+    color:#1f3138;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0 10px;
+    /* font-size: 0.9em; */
+    text-transform: capitalize;
+}
+input{
+    height: 23px;
+}
+label{
+    color:#f68b56;
+    font-size: 1.2em;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    width: 20%;
+    margin: 0 auto;
+}
+p{
+    font-size: 1.2em;
+}

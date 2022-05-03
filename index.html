@@ -7,19 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="#" type="image/x-icon">
     <link rel="stylesheet" href="/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <h1>devinette</h1>
-    <form action="">
-        <button type="button">Demarrer</button>
+    <button type="button" id="demarrerBtn">Démarrer</button>
+    <form action="" id="formDisplay">
+        <p id="consigne">Devinez un nombre<span id="pairOuImpair"> </span> entre 0 et 20</p>
+        <p id="tips"></p>
         <div>
-            <label for="">Nombre</label>
-            <input type="text" id="randomNumInput">
-            <button>valider</button>
+            <p>Nb de tentatives : <span id="pTentative"> 0</span> / 3 </p>
+            <div class="container">
+                <label for="">Nombre : </label>
+                <input type="text" id="displayInput" value="">
+                <button type="button" id="validerBtn">valider</button>
+            </div>
         </div>
     </form>
+    <p id="messageError"></p>
     <script src="/assets/app.js"></script>
 </body>
 
